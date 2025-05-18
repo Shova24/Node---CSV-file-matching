@@ -1,0 +1,17 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload CSV Files</title>
+</head>
+<body>
+  <h1>Upload Two CSV Files</h1>
+  <form action="/upload" method="POST" enctype="multipart/form-data">
+    <label>CSV File 1:</label>
+    <input type="file" name="file1" accept=".csv" required><br><br>
+    <label>CSV File 2:</label>
+    <input type="file" name="file2" accept=".csv" required><br><br>
+    <button type="submit">Upload</button>
+  </form>
+</body>
+</html>
